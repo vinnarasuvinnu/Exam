@@ -6,6 +6,7 @@ session_destroy();
 
 
 <html>
+
 <head>
 	<title></title>
 	<!-- Latest compiled and minified CSS -->
@@ -26,6 +27,7 @@ height:100%;
 </style>
 <script type="text/javascript">
 $(document).ready(function(){
+	        localStorage.clear();
 
 	setTimeout(function(){
 		location.href="index.php";
